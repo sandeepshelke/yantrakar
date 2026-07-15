@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Yantrakar | Specialist software for industrial robotics and machine systems</title>
+  <meta name="description" content="Yantrakar is a specialist engineering house for integration-heavy industrial systems — connecting robots, drones, sensors and controllers into interfaces and applications that hold up in production.">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Yantrakar home">
+        <svg width="22" height="22" viewBox="0 0 26 26" aria-hidden="true"><path d="M2 2 L13 13 L24 2 M13 13 L13 24" stroke="#ff7a1a" stroke-width="3.2" fill="none" stroke-linecap="square"/></svg>
+        <span class="brand-word">YANTRAKAR</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#problems">Problems</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">// specialist industrial software — stavanger, norway</p>
+          <h1>The software between machines, control systems and operations.</h1>
+          <p class="lead">A specialist engineering house for integration-heavy industrial systems — connecting robots, drones and sensors into interfaces and applications that hold up in production.</p>
+          <div class="actions">
+            <a class="button primary" href="#work">See the work</a>
+            <a class="text-link" href="#contact">Bring us a hard integration problem <span>→</span></a>
+          </div>
+          <div class="hero-tags">
+            <span>DDS</span><span>REST</span><span>gRPC</span><span>PLC</span><span>WebSockets</span><span>Redis</span>
+          </div>
+        </div>
+        <aside class="system-panel" aria-label="How the work flows, from data source to application">
+          <p class="panel-label">system.topology — base to top</p>
+          <div class="system-row active"><span>Applications</span><small>built on the data — workflows, missions, operator tools</small></div>
+          <div class="connector">↑</div>
+          <div class="system-row active"><span>Interfaces</span><small>access to the data — unified read/write, protocol adapters</small></div>
+          <div class="connector">↑</div>
+          <div class="system-row dimmed"><span>Data sources</span><small>drones · robots · sensors · PLCs — where the data originates</small></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section problem-section" id="problems">
+      <div class="container section-head">
+        <div><p class="eyebrow">Where we are useful</p><h2>When the machines work, but the system around them does not.</h2></div>
+        <p>We take on integration-heavy software where data, control interfaces and operational decisions cross several technologies.</p>
+      </div>
+      <div class="container problem-list">
+        <article><span>01</span><div><h3>Machine state is fragmented</h3><p>Bring PLC, DDS, REST, gRPC and application data behind a coherent interface without rewriting every connected system.</p></div></article>
+        <article><span>02</span><div><h3>Operational logic is trapped in code</h3><p>Move suitable rules, expressions and mission decisions into configurable layers while keeping control and safety boundaries clear.</p></div></article>
+        <article><span>03</span><div><h3>Multi-machine work is hard to understand</h3><p>Build sequence programming, visualization and state tooling that operators and engineers can reason about.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="container section-head">
+        <div><p class="eyebrow">Selected work</p><h2>Built for real machines and real operational constraints.</h2></div>
+        <p>Representative engagements are described at system level to respect client confidentiality.</p>
+      </div>
+      <div class="container work-stack">
+        <article class="work-item">
+          <div><p class="case-meta">Industrial robotics · Drilling automation</p><h3>Machine state, inventory and mission execution</h3></div>
+          <p>Inventory and state-management software for drilling robots; multi-machine sequence tooling; configurable zone and mission logic; and a common read/write layer across PLCs, DDS, REST, gRPC and WebSockets.</p>
+        </article>
+        <article class="work-item">
+          <div><p class="case-meta">Drone systems · Data infrastructure</p><h3>Application boundaries and resilient backup</h3></div>
+          <p>An interface-based drone application stack, standalone cloud backup, and a local Drogon web service using C++, Python, Azure, rsync and Nix.</p>
+        </article>
+        <article class="work-item">
+          <div><p class="case-meta">Private infrastructure · Local AI</p><h3>Repeatable local LLM deployment</h3></div>
+          <p>Ansible automation for deploying private local LLM infrastructure in controlled engineering environments.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container split">
+        <div><p class="eyebrow">About Yantrakar</p><h2>Small company. Direct engineering responsibility.</h2></div>
+        <div>
+          <p class="about-lead">Yantrakar is a founder-led software company in Stavanger. We design, implement, test and deploy the parts of machine systems that do not fit neatly inside one product or protocol.</p>
+          <p>Our background includes industrial robotics, drone software, mature C++ engineering platforms, Python APIs, distributed services and long-lived production systems.</p>
+          <div class="tag-list"><span class="tag">C++</span><span class="tag">Python</span><span class="tag">DDS</span><span class="tag">PLC integration</span><span class="tag">gRPC</span><span class="tag">REST</span><span class="tag">Redis</span><span class="tag">Azure</span><span class="tag">Nix</span><span class="tag">Ansible</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">Contact</p><h2>Describe the system, the constraint and what is failing.</h2></div>
+        <div class="contact-panel">
+          <p>We are most useful when the problem crosses machine interfaces, application boundaries or operational workflows.</p>
+          <form class="contact-form" id="contact-form" action="https://crm.zoho.eu/crm/WebToLeadForm" method="POST" accept-charset="UTF-8">
+            <!-- Required by Zoho CRM's Web-to-Lead form. Do not remove or edit these values. -->
+            <input type="text" style="display:none;" name="xnQsjsdp" value="d9441e56bd94ff751dd7efc44488b5497076b54b8f87b884ffd003ad404ba964">
+            <input type="hidden" name="zc_gad" id="zc_gad" value="">
+            <input type="text" style="display:none;" name="xmIwtLD" value="6f4bab59505a5b70841eff69fe4ff543896f9afd763da1b713dc5e503f851951000c81bca8b27aaf64baa5543cf4a5b8">
+            <input type="text" style="display:none;" name="actionType" value="TGVhZHM=">
+            <input type="text" style="display:none;" name="returnURL" value="null">
+            <input type="text" style="display:none;" name="aG9uZXlwb3Q" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-row">
+              <label for="cf-name">Name<input id="cf-name" type="text" name="Last Name" maxlength="80" required></label>
+              <label for="cf-email">Email<input id="cf-email" type="email" name="Email" maxlength="100" required></label>
+            </div>
+            <label for="cf-message">Describe the system and the constraint<textarea id="cf-message" name="Description" rows="5" required></textarea></label>
+            <button class="button primary" type="submit">Send</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+          <p>Stavanger, Norway</p>
+          <p><a href="https://www.linkedin.com/company/yantrakar">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-row"><span>© Yantrakar</span><a href="#home">Back to top ↑</a></div></footer>
+
+  <script>
+    // Progressive enhancement: without JS this form still submits via a normal
+    // POST to Zoho CRM's Web-to-Lead endpoint. With JS, we submit in the
+    // background so the page never navigates away to Zoho's response.
+    // Note: Zoho's endpoint doesn't return CORS headers for cross-origin reads,
+    // so (like any direct third-party form target) we can't confirm success —
+    // this shows an optimistic "thanks" once the request is sent, not once delivered.
+    (function () {
+      var form = document.getElementById('contact-form');
+      if (!form) return;
+      var status = form.querySelector('.form-status');
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        status.textContent = 'Sending…';
+        fetch(form.action, {
+          method: 'POST',
+          mode: 'no-cors',
+          body: new FormData(form)
+        }).then(function () {
+          status.textContent = 'Thanks — we will get back to you shortly.';
+          form.reset();
+        }).catch(function () {
+          status.textContent = 'Something went wrong. Please try again or use LinkedIn.';
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
